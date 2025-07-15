@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Kanban Task Management Web App
 
 It allows users to manage projects efficiently with features such as creating boards, adding tasks, updating statuses, and drag-and-drop functionality.
