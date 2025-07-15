@@ -1,49 +1,90 @@
-# Kanban task management web app solution
+Kanban Task Management Web App
+It allows users to manage projects efficiently with features such as creating boards, adding tasks, updating statuses, and drag-and-drop functionality.
 
-This is a solution to the [Kanban task management web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+🚀 Features
+📱 Responsive Design – Fully responsive layout for desktop, tablet, and mobile views.
 
-### The challenge
+🎯 CRUD Operations – Create, Read, Update, Delete for both boards and tasks.
 
-Users should be able to:
+✅ Subtasks – Mark subtasks as complete or incomplete.
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Create, read, update, and delete boards and tasks
-- Receive form validations when trying to create/edit boards and tasks
-- Mark subtasks as complete and move tasks between columns
-- Hide/show the board sidebar
+🧠 Drag and Drop – Reorder tasks across columns using native drag-and-drop.
 
-Expected Behaviour:
+📂 Dynamic Boards – Add, rename, or delete boards and columns.
 
-- Boards
-  - Clicking different boards in the sidebar will change to the selected board.
-  - Clicking "Create New Board" in the sidebar opens the "Add New Board" modal.
-  - Clicking in the dropdown menu "Edit Board" opens up the "Edit Board" modal where details can be changed.
-  - Columns are added and removed for the Add/Edit Board modals.
-  - Deleting a board deletes all columns and tasks and requires confirmation.
-- Columns
-  - A board needs at least one column before tasks can be added. If no columns exist, the "Add New Task" button in the header is disabled.
-  - Clicking "Add New Column" opens the "Edit Board" modal where columns are added.
-- Tasks
-  - Adding a new task adds it to the bottom of the relevant column.
-  - Updating a task's status will move the task to the relevant column.
+🔐 Form Validation – Built-in validations for forms while adding/editing boards or tasks.
 
-Bonus: 
-  - The tasks can be dragged and dropped to a new column.
+🌗 Dark/Light Mode – Toggle between light and dark themes.
 
-### Built with
+📚 Sidebar Toggle – Collapse or expand the sidebar.
 
-- Semantic HTML5 markup
-- CSS
-- Flexbox
-- Mobile-first workflow
-- Drag and Drop API
-- [React](https://reactjs.org/) - JS library
-- [Redux](https://redux.js.org/) - State management tool
+📌 Behavior Overview
+Boards
+Switch between boards using the sidebar.
 
-### Useful resources
+"Create New Board" opens a modal to add a board and columns.
 
-- [How to create a toggle switch](https://www.w3schools.com/howto/howto_css_switch.asp) - Helped me create the theme toggle switch.
-- [Have an onclick event fire only on parent and not it's children](https://stackoverflow.com/questions/9183381/how-to-have-click-event-only-fire-on-parent-div-not-children) - Helped me with closing modals when clicking outside the modal content container.
-- [Package for using media queries in React](https://www.npmjs.com/package/react-responsive) - Helped me with rendering elements conditionally based on the window size
-- [Drag and Drop quick tutorial](https://www.youtube.com/watch?v=u65Y-vqYNAk)
+Edit or delete existing boards using the options menu.
+
+Columns
+A board must have at least one column to add tasks.
+
+Add or remove columns using the edit board modal.
+
+Tasks
+Add tasks with title, description, subtasks, and status.
+
+Move tasks between columns by dragging.
+
+Update task status or edit/delete tasks via modals.
+
+🛠 Built With
+React – Frontend library
+
+Redux – State management
+
+CSS & Flexbox – Layout styling
+
+HTML5
+
+React Responsive – Media query handling
+
+Native Drag and Drop API
+
+📚 Useful Resources
+React Responsive (media queries)
+
+W3Schools - Toggle Switch
+
+StackOverflow - Prevent event bubbling
+
+Drag and Drop Tutorial (YouTube)
+
+📦 Getting Started
+Clone the repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/Gattikowsik/Kanban-task-management.git
+cd Kanban-task-management
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+💡 Future Improvements
+User authentication
+
+Task deadlines and reminders
+
+Integration with external APIs
+
+Save data to a backend/database
